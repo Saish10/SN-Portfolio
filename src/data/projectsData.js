@@ -19,7 +19,7 @@ export const projectsData = [
         projectDesc: 'This project is my portfolio website.',
         tags: ['React', 'JavaScript', 'HTML', 'CSS'],
         code: 'https://github.com/Saish10/SN-Portfolio',
-        demo: 'https://saish10.github.io/',
+        demo: 'https://saish.vercel.app/',
         image: personal_website
     },
 ]

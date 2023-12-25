@@ -10,7 +10,7 @@
 .contacts--img {
   position: absolute;
   right: 5%;
-  top: 25%;
+  top: 6%;
   width: 280px;
   pointer-events: none;
 }
@@ -126,7 +126,7 @@
   justify-content: space-evenly;
   flex: 0.6;
   box-sizing: border-box;
-  padding-left: 7rem;
+  padding-left: 0rem;
   margin-top: 1.2rem;
 }
 
@@ -154,7 +154,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: normal;
   gap: 1.5rem;
   margin-top: 4rem;
 }
@@ -162,9 +162,9 @@
 @media (min-width: 992px) and (max-width: 1380px) {
   .contacts--img {
     position: absolute;
-    right: 0;
+    /* right: 0; */
     bottom: 0;
-    width: 240px;
+    width: 250px;
   }
 
   .contacts--container {
