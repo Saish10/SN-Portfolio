@@ -1,4 +1,5 @@
-// import eight from '../assets/svg/projects/eight.svg'
+import report from '../assets/svg/projects/report.svg'
+import personal_website from '../assets/svg/projects/website.svg'
 
 
 
@@ -10,16 +11,16 @@ export const projectsData = [
         tags: ['Python', 'Flask', 'RestX', 'SQLalchemy', 'Postgresql'],
         code: 'https://github.com/Saish10/DSR-Backend',
         demo: '',
-        image: ''
+        image: report
     },
     {
         id: 2,
         projectName: 'SN-Portfolio',
         projectDesc: 'This project is my portfolio website.',
         tags: ['React', 'JavaScript', 'HTML', 'CSS'],
-        code: '',
-        demo: '',
-        image: ''
+        code: 'https://github.com/Saish10/SN-Portfolio',
+        demo: 'https://saish10.github.io/',
+        image: personal_website
     },
 ]
 
