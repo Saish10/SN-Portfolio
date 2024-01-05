@@ -195,6 +195,20 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   <FaLinkedinIn aria-label='LinkedIn' />
                 </a>
               )}
+              {contactsData.peerlist && (
+                <a
+                    href={contactsData.peerlist}
+                    target='_blank'
+                    rel='noreferrer'
+                    className={classes.socialIcon}
+                    aria-label='peerlist'
+                >
+                    <img
+                        src= '/peerlist2.svg' // Adjust the path accordingly 
+                        alt='Peer List'
+                    />
+                </a>
+              )}
 
               {/* {contactsData.medium && (
                 <a

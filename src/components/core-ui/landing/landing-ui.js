@@ -4,7 +4,7 @@ import { HashLink as NavLink } from 'react-router-hash-link';
 import Typed from 'react-typed';
 import { headerData } from '../../../data/headerData';
 import './landing.css';
-
+// import peerlist from  '../../../assets/svg/peerlist.svg'
 import {
     FaFacebook, FaGithub, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
@@ -70,6 +70,21 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     className='landing--social facebook-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='facebook'
+                                />
+                            </a>
+                        )}
+                        {contactsData.peerlist && (
+                            <a
+                                href={contactsData.peerlist}
+                                target='_blank'
+                                rel='noreferrer'
+                                aria-label='peerlist'
+                            >
+                                <img
+                                    src= '/peerlist.svg' // Adjust the path accordingly 
+                                    alt='Peer List'
+                                    className='landing--social custom-icon'
+                                    style={{ color: theme.primary }}
                                 />
                             </a>
                         )}

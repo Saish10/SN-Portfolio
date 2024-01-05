@@ -5,6 +5,7 @@ export const contactsData = {
     github: 'https://github.com/Saish10',
     // facebook: 'https://www.facebook.com/abusaid.riyaz/',
     linkedIn: 'https://www.linkedin.com/in/saish-naik-b11507168/',
+    peerlist: 'https://peerlist.io/saish_naik',
     twitter: 'https://twitter.com/Saish_14',
     // medium: 'https://medium.com/@abusaid-bd',
     // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
