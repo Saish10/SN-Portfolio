@@ -12,7 +12,6 @@ export const skillsData = [
     'Javascript',
     'CSS',
     'Tailwind',
-    'Bootstrap',
     'Confluence',
     'Jira',
     'Sqlalchemy',
