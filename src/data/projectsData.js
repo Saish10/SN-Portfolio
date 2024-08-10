@@ -6,10 +6,10 @@ import personal_website from '../assets/svg/projects/website.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'DSR-Backend',
-        projectDesc: 'This project is about Daily Status Report of Co-operate Employees.',
-        tags: ['Python', 'Flask', 'RestX', 'SQLalchemy', 'Postgresql'],
-        code: 'https://github.com/Saish10/DSR-Backend',
+        projectName: 'NexHR',
+        projectDesc: 'NexHR is a next-generation, all-in-one Human Resources Management System (HRMS) designed to streamline and optimize HR processes within organizations of all sizes.',
+        tags: ['Python', 'Django', 'Django Rest Framework'],
+        code: 'https://github.com/Saish10/NEXHR-BACKEND',
         demo: '',
         image: report
     },
